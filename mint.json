@@ -1,91 +1,74 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Semilattice",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#29A383",
+    "light": "#29A383",
+    "dark": "#29A383",
+    "background": {
+        "light": "#F4FBF7",
+        "dark": "#1D3B31"
+    },
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#26997B",
+      "to": "#56BA9F"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@semilattice.ai"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://semilattice.ai/sign-in"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "quickstart"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Populations",
+      "icon": "globe",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "populations/introduction",
+        "populations/seed-data",
+        "populations/evaluation",
+        "populations/create-a-population"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Questions",
       "pages": [
-        "api-reference/introduction"
+        "questions/introduction",
+        "questions/ask-a-question",
+        "questions/prediction-lifecycle",
+        "questions/interpreting-results"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Simulation Engines",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "simulation-engines/introduction",
+        "simulation-engines/answers-engines"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "website": "https://semilattice.ai",
+    "x": "https://x.com/semilatticeai",
+    "github": "https://github.com/semilattice-research",
+    "linkedin": "https://www.linkedin.com/company/semilattice"
   }
 }
